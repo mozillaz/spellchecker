@@ -1,18 +1,24 @@
 SET UTF-8
 TRY abcçdeəfgğhxıijkqlmnoöprsştuüvyzABCÇDEƏFGĞHXIİJKQLMNOÖPRSŞTUÜVYZ'
+KEY qüertyuiopöğ|asdfghjklıə|zxcvbnmçş
 LANG az
 
 
 # plural
 SFX N Y 1
-SFX N 0 lar
+SFX N 0 lar .
 SFX O Y 1
-SFX O 0 lər
+SFX O 0 lər .
 
 SFX N Y 1
 SFX N 0 da
 SFX O Y 1
 SFX O 0 də
+
+SFX N Y 1
+SFX N 0 dır
+SFX O Y 1
+SFX O 0 dir
 
 # məsdər
 SFX V Y 1
