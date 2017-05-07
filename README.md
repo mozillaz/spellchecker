@@ -3,7 +3,7 @@ Firefox SpellChecker for Azerbaijani
 
 Hunspell dictionary for Azerbaijani language.
 
-Wordlist is based on [azerdict.com](https://azerdict.com)
+Wordlist is provided by [azerdict.com](https://azerdict.com)
 
 # Notes
 Word marks:
