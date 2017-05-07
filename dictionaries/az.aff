@@ -3,6 +3,9 @@ TRY abcçdeəfgğhxıijkqlmnoöprsştuüvyzABCÇDEƏFGĞHXIİJKQLMNOÖPRSŞTUÜV
 KEY qüertyuiopöğ|asdfghjklıə|zxcvbnmçş
 LANG az
 
+REP 2
+REP o a
+REP a o
 
 # plural
 SFX N Y 1
