@@ -3,11 +3,19 @@ TRY abcçdeəfgğhxıijkqlmnoöprsştuüvyzABCÇDEƏFGĞHXIİJKQLMNOÖPRSŞTUÜV
 LANG az
 
 
-# suffix a
-PFX N Y 1
-PFX N 0 a
+# plural
+SFX N Y 1
+SFX N 0 lar
+SFX O Y 1
+SFX O 0 lər
 
+SFX N Y 1
+SFX N 0 da
+SFX O Y 1
+SFX O 0 də
 
 # məsdər
-PFX V Y 1
-PFX V 0 maq
+SFX V Y 1
+SFX V 0 maq
+SFX E Y 1
+SFX E 0 mək

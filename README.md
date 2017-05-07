@@ -9,11 +9,17 @@ Wordlist is based on [azerdict.com](https://azerdict.com)
 Word marks:
 
 * N - noun (isim)
+* O - noun (incə isim)
 * V - verb (feil)
-* A - Adjective (sifət)
+* E - verb (incə feil)
+* A - adjective (sifət)
+* J - adjective (incə sifət)
 * P - pronoun (əvəzlik)
-* N - numeral (say)
+* R - pronoun (incə əvəzlik)
+* U - numeral (say)
+* M - numeral (incə say)
 * D - adverb (zərf)
+* B - adverb (incə zərf)
 
 # License
 Project is licensed under MPLv2 License, copy of the license can be obtained within project source code (LICENSE file).
