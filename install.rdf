@@ -6,7 +6,7 @@
     <em:version>0.1</em:version>
     <em:type>64</em:type>
     <em:unpack>true</em:unpack>
-    <em:name>Azerbaijani</em:name>
+    <em:name>Azerbaijani Spellchecker</em:name>
     <em:homepageURL>https://www.mozillaz.org</em:homepageURL>
     <em:description>Azerbaijani SpellChecker for Firefox. With love by Mozilla Azerbaijan</em:description>
     <!--
