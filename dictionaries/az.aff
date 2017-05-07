@@ -19,15 +19,23 @@ MAP cç
 MAP sş
 
 # plural
-SFX N Y 3
+SFX N Y 7
 SFX N 0 lar .
 SFX N 0 da .
 SFX N 0 dır .
+SFX N 0 lardadır .
+SFX N 0 dadır .
+SFX N 0 larda .
+SFX N 0 lardır .
 
-SFX O Y 3
+SFX O Y 7
 SFX O 0 lər .
 SFX O 0 də .
 SFX O 0 dir .
+SFX O 0 lərdədir .
+SFX O 0 dədir .
+SFX O 0 lərdə .
+SFX O 0 lərdir .
 
 # məsdər
 SFX V Y 1
