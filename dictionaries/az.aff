@@ -3,9 +3,20 @@ TRY abcçdeəfgğhxıijkqlmnoöprsştuüvyzABCÇDEƏFGĞHXIİJKQLMNOÖPRSŞTUÜV
 KEY qüertyuiopöğ|asdfghjklıə|zxcvbnmçş
 LANG az
 
+# simple a-o mistake
 REP 2
 REP o a
 REP a o
+
+# english-azerbaijan letter mapping
+MAP 7
+MAP uü
+MAP oö
+MAP gğ
+MAP iı
+MAP eə
+MAP cç
+MAP sş
 
 # plural
 SFX N Y 1
