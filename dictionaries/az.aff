@@ -6,3 +6,8 @@ LANG az
 # suffix a
 PFX N Y 1
 PFX N 0 a
+
+
+# məsdər
+PFX V Y 1
+PFX V 0 maq
