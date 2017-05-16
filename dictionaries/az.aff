@@ -18,27 +18,80 @@ MAP eə
 MAP cç
 MAP sş
 
-# plural
-SFX N Y 7
+# isim
+SFX N Y 25
 SFX N 0 lar .
 SFX N 0 da .
 SFX N 0 dır .
+SFX N 0 ı .
+SFX N 0 a .  # baş-a
+SFX N 0 lara .
+SFX N 0 adır .
+SFX N 0 laradır .
+SFX N 0 ya . # halqaya
+SFX N 0 yadır .
+SFX N 0 ları .
+SFX N 0 ların .
+SFX N 0 larını .
+SFX N 0 ını .
+SFX N 0 ın .
+SFX N 0 ındır .
+SFX N 0 ıdır .
+SFX N 0 ında .
+SFX N 0 ındadır .
+SFX N 0 larında .
+SFX N 0 larındadır .
 SFX N 0 lardadır .
 SFX N 0 dadır .
 SFX N 0 larda .
 SFX N 0 lardır .
 
-SFX O Y 7
+SFX O Y 25
 SFX O 0 lər .
 SFX O 0 də .
 SFX O 0 dir .
+SFX O 0 i .
+SFX O 0 ə .  # şəhər-ə
+SFX O 0 lərə .
+SFX O 0 ədir .
+SFX O 0 lərədir .
+SFX O 0 yə . # hamiləyə
+SFX O 0 yədir .
+SFX O 0 ləri .
+SFX O 0 lərin .
+SFX O 0 lərini .
+SFX O 0 ini .
+SFX O 0 in .
+SFX O 0 indir .
+SFX O 0 idir .
+SFX O 0 ində .
+SFX O 0 indədir .
+SFX O 0 lərində .
+SFX O 0 lərindədir .
 SFX O 0 lərdədir .
 SFX O 0 dədir .
 SFX O 0 lərdə .
 SFX O 0 lərdir .
 
-# məsdər
-SFX V Y 1
-SFX V 0 maq
-SFX E Y 1
-SFX E 0 mək
+# feil
+SFX V Y 9
+SFX V 0 maq .
+SFX V 0 ma .
+SFX V 0 mağa .
+SFX V 0 acaq .
+SFX V 0 yacaq .
+SFX V 0 mayacaq .
+SFX V 0 a .
+SFX V 0 mağa .
+SFX V 0 ar . # bax-ar
+
+SFX E Y 9
+SFX E 0 mək .
+SFX E 0 mə .
+SFX E 0 məyə .
+SFX E 0 əcək .
+SFX E 0 yəcək .
+SFX E 0 məyəcək .
+SFX E 0 ə .
+SFX E 0 məyə .
+SFX E 0 ər . # gəl-ər
