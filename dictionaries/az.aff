@@ -1,5 +1,5 @@
 SET UTF-8
-TRY abcçdeəfgğhxıijkqlmnoöprsştuüvyzABCÇDEƏFGĞHXIİJKQLMNOÖPRSŞTUÜVYZ'
+TRY aliərQTntımdAsNqkyOouşzebücvçYpVhxfEgöğSBDjRUPİKLHƏFŞZCXGMÇĞIJÖÜ'
 KEY qüertyuiopöğ|asdfghjklıə|zxcvbnmçş
 LANG az
 
@@ -18,34 +18,36 @@ MAP eə
 MAP cç
 MAP sş
 
-# isim
-SFX N Y 25
+# qalın isim, samitlə başlayan şəkilçilər
+SFX N Y 26
 SFX N 0 lar .
 SFX N 0 da .
 SFX N 0 dır .
-SFX N 0 ı .
-SFX N 0 a .  # baş-a
+SFX N 0 a [^aıoueəiöü]  # baş-a
 SFX N 0 lara .
-SFX N 0 adır .
+SFX N 0 adır [^aıoueəiöü]
 SFX N 0 laradır .
-SFX N 0 ya . # halqaya
-SFX N 0 yadır .
+SFX N 0 ya [aıoueəiöü] # halqa-ya
+SFX N 0 yadır [aıoueəiöü]
 SFX N 0 ları .
 SFX N 0 ların .
 SFX N 0 larını .
-SFX N 0 ını .
-SFX N 0 ın .
-SFX N 0 ındır .
-SFX N 0 ıdır .
-SFX N 0 ında .
-SFX N 0 ındadır .
+SFX N 0 ın [^aıoueəiöü]
+SFX N 0 nın [aıoueəiöü]
+SFX N 0 ındır [^aıoueəiöü]
+SFX N 0 nındır [aıoueəiöü]
 SFX N 0 larında .
 SFX N 0 larındadır .
 SFX N 0 lardadır .
 SFX N 0 dadır .
 SFX N 0 larda .
 SFX N 0 lardır .
+SFX N 0 ını [^aıoueəiöü]
+SFX N 0 ıdır [^aıoueəiöü]
+SFX N 0 ında [^aıoueəiöü]
+SFX N 0 ındadır [^aıoueəiöü]
 
+# incə isim, samitlə başlayan şəkilçilər
 SFX O Y 25
 SFX O 0 lər .
 SFX O 0 də .
@@ -72,6 +74,10 @@ SFX O 0 lərdədir .
 SFX O 0 dədir .
 SFX O 0 lərdə .
 SFX O 0 lərdir .
+
+SFX NQ Y 2
+SFX NQ 0 ı [^aıoueəiöü] # daş-ı
+SFX NQ 0 nı [aıoueəiöü] # qaya-nı
 
 # feil
 SFX V Y 9
