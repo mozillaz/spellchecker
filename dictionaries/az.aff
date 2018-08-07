@@ -63,8 +63,10 @@ SFX N1 q ğındadır q
 SFX N1 0 ım [^aı]
 SFX N1 q ğım q
 
+# SFX N1 0 lı/A1 .
+
 # incə isim, samitlə başlayan şəkilçilər
-SFX O2 Y 41
+SFX O2 Y 45
 SFX O2 0 lər .
 SFX O2 0 lərə .
 SFX O2 0 lərədir .
@@ -74,6 +76,8 @@ SFX O2 0 lərini .
 SFX O2 0 lərinin .
 SFX O2 0 lərində .
 SFX O2 0 lərindədir .
+SFX O2 0 lərinə .
+SFX O2 0 lərinədir .
 SFX O2 0 lərdədir .
 SFX O2 0 lərdə .
 SFX O2 0 lərdən .
@@ -97,6 +101,8 @@ SFX O2 0 ədir .
 SFX O2 0 yə . # hamiləyə
 SFX O2 0 yədir .
 SFX O2 0 ini .
+SFX O2 0 inə .
+SFX O2 0 inədir .
 SFX O2 0 in [^eəi]
 SFX O2 0 nin .
 SFX O2 0 indir .
@@ -106,6 +112,8 @@ SFX O2 0 nidir [eəi]
 SFX O2 0 ində .
 SFX O2 0 indədir .
 SFX O2 0 dədir .
+
+# SFX N1 0 li/A1 .
 
 # feil
 SFX V1 Y 12
