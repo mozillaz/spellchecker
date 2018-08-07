@@ -20,7 +20,7 @@ MAP cç
 MAP sş
 
 # qalın isim, samitlə başlayan şəkilçilər
-SFX N1 Y 41
+SFX N1 Y 44
 SFX N1 0 lar .
 SFX N1 0 lara .
 SFX N1 0 laradır .
@@ -32,6 +32,7 @@ SFX N1 0 larında .
 SFX N1 0 larındadır .
 SFX N1 0 lardadır .
 SFX N1 0 larda .
+SFX N1 0 lardadır .
 SFX N1 0 lardan .
 SFX N1 0 lardandır .
 SFX N1 0 lardır .
@@ -54,6 +55,8 @@ SFX N1 0 nı [aı]
 SFX N1 0 sı [aı]
 SFX N1 0 ını [^aıq]
 SFX N1 q ğını q
+SFX N1 0 ına [^aıq]
+SFX N1 q ğına q
 SFX N1 0 ıdır [^aı]
 SFX N1 q ğıdır q
 SFX N1 0 ında [^aı]
@@ -66,7 +69,7 @@ SFX N1 q ğım q
 # SFX N1 0 lı/A1 .
 
 # incə isim, samitlə başlayan şəkilçilər
-SFX O2 Y 45
+SFX O2 Y 49
 SFX O2 0 lər .
 SFX O2 0 lərə .
 SFX O2 0 lərədir .
@@ -80,13 +83,15 @@ SFX O2 0 lərinə .
 SFX O2 0 lərinədir .
 SFX O2 0 lərdədir .
 SFX O2 0 lərdə .
+SFX O2 0 lərdədir .
 SFX O2 0 lərdən .
 SFX O2 0 lərdəndir .
 SFX O2 0 lərdir .
 SFX O2 0 də .
 SFX O2 0 dən .
 SFX O2 0 dir .
-SFX O2 0 i [^eəi]
+SFX O2 0 i [^eəik]
+SFX O2 k yi k
 SFX O2 0 ni [eəi]
 SFX O2 0 si [eəi]
 SFX O2 0 sini
@@ -112,6 +117,8 @@ SFX O2 0 nidir [eəi]
 SFX O2 0 ində .
 SFX O2 0 indədir .
 SFX O2 0 dədir .
+SFX O2 0 im [^k]
+SFX O2 k yim k
 
 # SFX N1 0 li/A1 .
 
